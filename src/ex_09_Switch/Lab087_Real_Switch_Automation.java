@@ -11,10 +11,10 @@ public class Lab087_Real_Switch_Automation {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the browser");
-        String browser = scanner.next();
-        browser = browser.toLowerCase();
+        Scanner scanner = new Scanner(System.in); // computer is ready to take the input from the user via keyboard
+        System.out.println("Enter the browser"); // asks user to provide the input
+        String browser = scanner.next(); //read the input entered by the user and store it into 'browser' variable
+        browser = browser.toLowerCase(); //converts the string values to lower case
 
         switch (browser){
 
