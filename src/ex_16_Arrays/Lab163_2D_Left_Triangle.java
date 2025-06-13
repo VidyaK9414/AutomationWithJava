@@ -1,8 +1,5 @@
-
 package ex_16_Arrays;
-
 import java.util.Scanner;
-
 public class Lab163_2D_Left_Triangle {
     public static void main(String[] args) {
         // How the pattern we want
@@ -17,7 +14,5 @@ public class Lab163_2D_Left_Triangle {
             }
             System.out.println("");
         }
-
-
     }
 }

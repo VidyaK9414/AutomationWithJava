@@ -6,7 +6,7 @@ public class Lab156_SUM_OF_ARRAYS {
         int[] numbers = {12, 34, 10};
         int sum = 0; // ->12 + 34 + 10 ->56
         for (int i = 0; i < numbers.length ; i++) {
-            sum = sum+numbers[i];
+            sum += numbers[i];
         }
 
 
