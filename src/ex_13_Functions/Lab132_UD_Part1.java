@@ -31,8 +31,8 @@ public class Lab132_UD_Part1 {
 
         //  4. With Parameters and With Return Type
 
-
-
+        int result = sum(8,9);
+        System.out.println(result);
     }
 
     static void wr_wa() {
@@ -46,6 +46,9 @@ public class Lab132_UD_Part1 {
  static void multiply(int first, int second){
         int result = first * second;
      System.out.println(result);
+ }
+ static int sum(int n1, int n2){
+        return n1+n2;
  }
 
 
