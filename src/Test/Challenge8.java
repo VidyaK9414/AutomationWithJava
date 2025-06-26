@@ -30,5 +30,5 @@ public class Challenge8 {
                 scanner.close();
             }
         }
-    }
-}
+
+
